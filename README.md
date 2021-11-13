@@ -3,7 +3,14 @@ PROYECT-DAVID es una aplicación web progresiva ([PWA](https://developer.mozilla
 
 > **Nota:**  **PROYECT-DAVID** no es el nombre final de la plataforma solo el nombre en clave del proyecto.
 
-## Informacion general
+## Tabla de contenido
+* [Información general](#info)
+* [Tecnologías](#tec)
+* [Estructura del proyecto](#estr)
+* [Git branches](#git)
+* [¡Gracias!](#ty)
+
+## Información general <a name="info"></a>
 Trabajaremos en implementar funcionalidades de planeación de equipos tales como:
 
  - Creación de equipos de trabajo
@@ -18,7 +25,7 @@ Estas son características inspiradas de otros proyectos tales como [Planning Ce
 
 > **Véase también:**  [StackEdit](https://stackedit.io/) o [Flipboard](https://flipboard.com) como ejemplos de PWA's bien ejecutadas.
 
-## Tecnologías
+## Tecnologías <a name="tec"></a>
 Las tecnologías propuestas idealmente para este proyecto son en su mayoría basadas en Javascript como lenguaje de programación principal.
 
  - [React JS](https://es.reactjs.org/) v17.0.2 (componentes funcionales)
@@ -29,8 +36,8 @@ Las tecnologías propuestas idealmente para este proyecto son en su mayoría bas
 
 Los frameworks derivados de dichas tecnologías serán evaluados con  el equipo involucrado en desarrollar el feature correspondiente de la aplicación.
 
-## Estructura del proyecto
-La estructura básica del proyecto propuesta es la siguiente
+## Estructura del proyecto <a name="estr"></a>
+La estructura básica del proyecto propuesta es la siguiente y pretende ser modular y "encapsular" el código en módulos en la medida de lo posible.
 
  - Frontend
 	 - Container
@@ -57,3 +64,19 @@ La estructura básica del proyecto propuesta es la siguiente
 	 - Utils
 
 >**Importante:** Con la estructura propuesta intento expresar una arquitectura modular intentando evitar lo máximo posible tener un monolito de código o código "spaghetti", no es mi intención limitar sus capacidades técnicas para desarrollar arquitecturas.
+
+## Git branches <a name="git"></a>
+Para el control de versiones  utilizaremos 3 tipos de banches principales en la etapa del desarrollo.
+
+|Branch  | Descripción |
+|--|--|
+|Master|La rama principal que en el futuro se convertirá en la rama de producción.|
+|Develop|sera la encargada de unir las ramas de cada feature o modulo que vayamos desarrollando.|
+|Feature|Las ramas feature serán las destinadas al desarrollo y test de cada modulo que vayamos desarrollando idealmente una rama feature por cada modulo en desarrollo.|
+
+## ¡Gracias! <a name="ty"></a>
+Agradecemos tu corazón de servicio y disposición para servir al reino y a la iglesia. 
+
+>sino que siguiendo la verdad en amor, crezcamos en todo en aquel que es la cabeza, esto es, Cristo, de quien todo el cuerpo, bien concertado y unido entre sí por todas las coyunturas que se ayudan mutuamente, según la actividad propia de cada miembro, recibe su crecimiento para ir edificándose en amor. Efesios 4:15
+
+Gracias de nuevo y **¡happy hacking!**
